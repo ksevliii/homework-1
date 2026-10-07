@@ -4,7 +4,7 @@
 Дискретно-событийная модель работы морского порта на языке C. Программа симулирует жизненный цикл судов: прибытие, швартовку, разгрузку кранами на склад и отбытие.
 
 
-## Выполнила
+### Выполнила
 
 Бусыгина Ксения Сергеевна, БПИ253
 
@@ -56,7 +56,7 @@ homework-1/
 
 ### Сущности и их роли
 
-- **`Ship`** — проходит 9 состояний FSM: `NOT_ARRIVED` → `QUEUED` → `ENTERING` → `WAITING_BERTH` → `WAITING_CRANE_AND_WAREHOUSE` → `UNLOADING` → `WAITING_DEPART` → `EXITING` → `DEPARTED`
+- **`Ship`** — 9 состояний: `NOT_ARRIVED` → `QUEUED` → `ENTERING` → `WAITING_BERTH` → `WAITING_CRANE_AND_WAREHOUSE` → `UNLOADING` → `WAITING_DEPART` → `EXITING` → `DEPARTED`
 - **`Tug`** — ограниченный ресурс для входа/выхода судна
 - **`Berth`** — ограниченный ресурс с совместимостью по типу судна (`SMALL`/`MEDIUM`/`LARGE`)
 - **`Crane`** — ограниченный ресурс с совместимостью по типу груза (`CONTAINER`/`LIQUID`)
